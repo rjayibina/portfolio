@@ -19,6 +19,7 @@ html {
   width: 100%;
   top: 0;
   transition: all 300ms ease-out;
+  z-index: 9999;
 }
 
 .site-header.fixed {
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -119,7 +120,7 @@ nav .right a span {
   border-radius: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .hero-section .text .links a:hover {
@@ -168,7 +169,6 @@ nav .right a span {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   width: 200px;
   padding: 10px 20px;
   margin: 10px;
@@ -232,7 +232,14 @@ nav .right a span {
 /* SECTION 4: Contact */
 .contact-section {
   padding: 0 50px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  background: var(--link-color);
+  color: #fff;
 }
 
 .contact-section h2 {
@@ -261,7 +268,7 @@ nav .right a span {
 
 .contact-section .group form input,
 .contact-section .group form textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 2px solid var(--link-color);
   background-color: transparent;
   padding: 10px;
@@ -272,18 +279,18 @@ nav .right a span {
 
 .contact-section .group form button {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   background-color: var(--link-color);
   border: none;
   height: 50px;
   cursor: pointer;
-  transition: .1s;
+  transition: 0.1s;
   margin-top: 20px;
 }
 
 .contact-section .group form button:hover {
-  filter: brightness(.9);
+  filter: brightness(0.9);
 }
 
 @media (max-width: 850px) {

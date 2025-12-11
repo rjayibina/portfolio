@@ -1,210 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
 
-  <link rel="stylesheet" href="styles.css">
+    <title>Rjay Ibina - Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <nav class="container">
+        <div class="left">
+          <a href="/">Rjay Ibina</a>
+        </div>
 
-  <title>Rjay Ibina - Portfolio</title>
-</head>
-<body>
-  <!-- NAVBAR -->
-  <header class="site-header">
-    <nav class="container">
-      <div class="left">
-        <a href="/">Rjay Ibina</a>
-      </div>
-
-      <div class="right">
-        <a href="https://github.com/rjayibina" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-github"></i>
-          <span>Github</span>
-        </a>
-        
-        <a href="mailto:rjay.ibina@pixeldevcode.com">
-          <i class="fa-solid fa-envelope"></i>
-          <span>Email</span>
-        </a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <!-- SECTION 1: Hero -->
-    <section class="hero-section container">
-      <div class="text">
-        <h2>Hi, I'm Rjay 👋</h2>
-        <p>
-          Highly motivated Full-Stack Web Developer with 3 years of hands-on experience, specializing in HTML5, CSS3,
-          JavaScript, PHP, WordPress, Shopify, SASS, Bootstrap, Docker, and GoHighLevel. Skilled in developing
-          responsive, user-focused websites and automations. Committed to continuous learning and dedicated to
-          delivering high-quality digital solutions within collaborative teams.
-        </p>
-
-        <div class="links">
-          <a href="#skills">
-            <i class="fa-solid fa-code"></i>
-            <span>Skills</span>
+        <div class="right">
+          <a
+            href="https://github.com/rjayibina"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
           </a>
-          
-          <a href="#testimonial">
-            <i class="fa-solid fa-pen"></i>
-            <span>Testimonial</span>
-          </a>
-          
-          <a href="#contact">
+
+          <a href="mailto:rjay.ibina@pixeldevcode.com">
             <i class="fa-solid fa-envelope"></i>
-            <span>Contact</span>
+            <span>Email</span>
           </a>
         </div>
-      </div>
+      </nav>
+    </header>
 
-      <div class="headshot">
-        <img src="images/rjay-headshot.jpg" alt="Rjay Ibina Headshot">
-      </div>
-    </section>
-
-    <!-- SECTION 2: Skills -->
-    <section id="skills" class="skills-section container">
-      <h2>Skills</h2>
-      <div class="text">
-        I build responsive, user-focused websites using modern web technologies. I specialize in custom WordPress development, ACF integrations, Gutenberg blocks, and WooCommerce customization. I also work with Shopify, GoHighLevel, Docker, and create fast, well-structured digital solutions with clean and efficient code.
-      </div>
-
-      <div class="cells">
-        <div class="cell">
-          <img src="images/html-logo.webp" alt="html logo">
-          <span>HTML</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/css-logo.webp" alt="css logo">
-          <span>CSS</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/javascript-logo.webp" alt="javascript logo">
-          <span>JavaScript</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/beaver-icon.png" alt="beaver logo">
-          <span>Beaver</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/Bootstrap_logo.svg.png" alt="bootstrap logo">
-          <span>Bootstrap</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/divi-new.png" alt="divi logo">
-          <span>Divi</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/docker-icon.webp" alt="docker logo">
-          <span>Docker</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/elementor-icon-v2.png" alt="elementor logo">
-          <span>Elementor</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/git-icon.png" alt="git logo">
-          <span>Git</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/jquery.svg" alt="jquery logo">
-          <span>jQuery</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/mysql.png" alt="mysql logo">
-          <span>MySQL</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/PHP-logo.svg.png" alt="php logo">
-          <span>PHP</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/sass-icon.png" alt="sass logo">
-          <span>Sass</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/shopify-icon.png" alt="shopify logo">
-          <span>Shopify</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/wordpress-logo.png" alt="wordpress logo">
-          <span>WordPress</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/gohighlevel.png" alt="GoHighLevel logo">
-          <span>GoHighLevel</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 3: Testimony -->
-    <section id="testimonial" class="testimony-section container">
-      <h2>Testimonial</h2>
-
-      <div class="group">
-        <div class="person-details">
-          <img src="images/testimonial-img-1.avif" alt="Nicole P. Testimonial Image">
-          <p>Nicole P.</p>
-          <p>Project Manager at Addlab</p>
-        </div>
-
+    <main>
+      <!-- SECTION 1: Hero -->
+      <section class="hero-section container">
         <div class="text">
-          <p>"Rjay has been a reliable and talented developer to work with. He delivered the Mirada Firenze Shopify store with great attention to detail, clean development, and a strong understanding of brand requirements. The results exceeded expectations and made the launch smooth for our team and the client.
-          We are currently working with him again on new projects because of his consistency, professionalism, and problem-solving skills. He’s someone you can trust to get things done efficiently and with high quality."</p>
+          <h2 data-aos="fade-up">Hi, I'm Rjay 👋</h2>
+          <p data-aos="fade-up">
+            Highly motivated Full-Stack Web Developer with 3 years of hands-on
+            experience, specializing in HTML5, CSS3, JavaScript, PHP, WordPress,
+            Shopify, SASS, Bootstrap, Docker, and GoHighLevel. Skilled in
+            developing responsive, user-focused websites and automations.
+            Committed to continuous learning and dedicated to delivering
+            high-quality digital solutions within collaborative teams.
+          </p>
+
+          <div class="links" data-aos="fade-up">
+            <a href="#skills" data-aos="fade-up">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimonial" data-aos="fade-up">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimonial</span>
+            </a>
+
+            <a href="#contact" data-aos="fade-up">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <!-- SECTION 4: Contact -->
-    <section id="contact" class="contact-section container">
-      <h2>Contact</h2>
+        <div class="headshot" data-aos="fade-up">
+          <img src="/images/rjay-headshot.jpg" alt="Rjay Ibina Headshot" />
+        </div>
+      </section>
 
-      <div class="group">
-        <div class="text">
-          <p>Have a project in mind? I’d love to help. Contact me for WordPress, Shopify, WooCommerce, or custom development work.</p>
+      <!-- SECTION 2: Skills -->
+      <section id="skills" class="skills-section container">
+        <h2 data-aos="fade-up">Skills</h2>
+        <div class="text" data-aos="fade-up">
+          I build responsive, user-focused websites using modern web
+          technologies. I specialize in custom WordPress development, ACF
+          integrations, Gutenberg blocks, and WooCommerce customization. I also
+          work with Shopify, GoHighLevel, Docker, and create fast,
+          well-structured digital solutions with clean and efficient code.
         </div>
 
-        <form id="contact-form">
-          <label for="name">Name*</label>
-          <input type="text" id="name" required>
+        <div class="cells">
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
 
-          <label for="email">Email*</label>
-          <input type="email" id="email" required>
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
 
-          <label for="message">Message*</label>
-          <textarea id="message" cols="30" rows="10" required></textarea>
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/javascript-logo.webp" alt="javascript logo" />
+            <span>JavaScript</span>
+          </div>
 
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/beaver-icon.png" alt="beaver logo" />
+            <span>Beaver</span>
+          </div>
 
-  <script src="custom.js"></script>
-</body>
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/Bootstrap_logo.svg.png" alt="bootstrap logo" />
+            <span>Bootstrap</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/divi-new.png" alt="divi logo" />
+            <span>Divi</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/docker-icon.webp" alt="docker logo" />
+            <span>Docker</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/elementor-icon-v2.png" alt="elementor logo" />
+            <span>Elementor</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/git-icon.png" alt="git logo" />
+            <span>Git</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/jquery.svg" alt="jquery logo" />
+            <span>jQuery</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/mysql.png" alt="mysql logo" />
+            <span>MySQL</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/PHP-logo.svg.png" alt="php logo" />
+            <span>PHP</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/sass-icon.png" alt="sass logo" />
+            <span>Sass</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/shopify-icon.png" alt="shopify logo" />
+            <span>Shopify</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/wordpress-logo.png" alt="wordpress logo" />
+            <span>WordPress</span>
+          </div>
+
+          <div class="cell" data-aos="fade-up">
+            <img src="/images/gohighlevel.png" alt="GoHighLevel logo" />
+            <span>GoHighLevel</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Testimony -->
+      <section id="testimonial" class="testimony-section container">
+        <h2 data-aos="fade-up">Testimonial</h2>
+
+        <div class="group" data-aos="fade-up">
+          <div class="person-details">
+            <img
+              src="/images/testimonial-img-1.jpg"
+              alt="Nicole P. Testimonial Image"
+            />
+            <p>Nicole P.</p>
+            <p>Project Manager at Addlab</p>
+          </div>
+
+          <div class="text" data-aos="fade-up">
+            <p>
+              "Rjay has been a reliable and talented developer to work with. He
+              delivered the Mirada Firenze Shopify store with great attention to
+              detail, clean development, and a strong understanding of brand
+              requirements. The results exceeded expectations and made the
+              launch smooth for our team and the client. We are currently
+              working with him again on new projects because of his consistency,
+              professionalism, and problem-solving skills. He’s someone you can
+              trust to get things done efficiently and with high quality."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: Contact -->
+      <section
+        id="contact"
+        class="contact-section container"
+        data-aos="fade-up"
+      >
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            <p>
+              Have a project in mind? I’d love to help. Contact me for
+              WordPress, Shopify, WooCommerce, or custom development work.
+            </p>
+          </div>
+
+          <form id="contact-form">
+            <label for="name">Name*</label>
+            <input type="text" id="name" required />
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" required />
+
+            <label for="message">Message*</label>
+            <textarea id="message" cols="30" rows="10" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      © 2025 Rjay Ibina | All Rights Reserved.
+    </footer>
+
+    <script src="custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
 </html>
